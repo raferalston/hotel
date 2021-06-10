@@ -1,0 +1,176 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar__logo { 
+    background-image: url(../img/Logo.png);
+    height: 73px;
+    width: 224px;
+    margin-left: 75px;
+}
+
+.navbar__menu {
+    display: flex;
+}
+
+.navbar__menu__aboutus {
+    margin-right: 85px;
+    color: #333;
+}
+
+.navbar__menu__projects {
+    margin-right: 85px;
+    color: #333;
+}
+
+.navbar__menu__stages {
+    margin-right: 85px;
+    color: #333;
+}
+
+.navbar__menu__comments {
+    margin-right: 85px;
+    color: #333;
+}
+
+.navbar__menu__contacts {
+    margin-right: 85px;
+    color: #333;
+}
+
+.navbar__menu__search {
+    margin-right: auto;
+}
+
+.header-wrapper {
+    width: 1770px;
+    height: 620px;
+}
+
+    .header-wrapper-herobox {
+        position: absolute;
+        background-image: url(../img/header-slayder1.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 620px;
+        margin: 0 75px;
+    }
+
+    .h1-header-wrapper-herobox {
+        margin: 0;
+        margin-top: 100px;
+        margin-left: 80px;
+        font-size: 70px;
+        line-height: 85.33px;
+        width: 20ch;
+        color: white;
+    }
+
+    .p-header-wrapper-herobox {
+        margin: 0;
+        margin-top: 24px;
+        margin-left: 80px;
+        font-size: 24px;
+        line-height: 29.26px;
+        width: 55ch;
+        color: white;
+    }
+
+    .button-header-wrapper-herobox {
+        margin: 0;
+        margin-top: 90px;
+        margin-left: 80px;
+        font-size: 23.46px;
+        color: white;
+        padding: 24.83px 36.88px;
+        background-color: #FF9900;
+        border-style: none;
+    }
+
+.about_us-wrapper {
+    width: 1770px;
+}
+
+.h2-about_us-wrapper {
+    margin: 0;
+    margin-left: 75px;
+    margin-top: 100px;
+    font-size: 48px;
+}
+
+.p-about_us-wrapper {
+    margin: 0;
+    margin-left: 75px;
+    margin-top: 20px;
+    font-size: 16px;
+    width: 1235px;
+}
+
+.benefits {
+    display: flex;
+    justify-content: center;
+}
+
+.benefits-wrapper {
+    width: 1770px;
+    display: flex;
+}
+
+.benefits-wrapper-attention {
+    position: relative;
+    background-image: url(../img/benefits-attention.jpg);
+    background-repeat: no-repeat;
+    width: 868px;
+    height: 622px;
+    /* margin-left: 75px;
+    margin-right: 0; */
+    margin-top: 50px;
+}
+
+.benefits-wrapper-attention__footer {
+    position: absolute;
+    bottom: 0;
+    width: 868px;
+    height: 196px;
+    background-color: #00000080;
+}
+
+.p-benefits-wrapper-attention__footer {
+    margin: 0;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 16px;
+    line-height: 32px;
+    width: 454px;
+    color: white;
+}
+
+.box-benefits-wrapper-attention__footer {
+    display: flex;
+}
+
+.textbox-benefits-wrapper-attention__footer{
+    margin-right: 139px;
+}
+
+.conteiner_button-benefits-wrapper-attention__footer {
+    margin-top: 68px;
+}
+
+.button-benefits-wrapper-attention__footer {
+    margin: 0;
+    padding: 20px 38px;
+    background-color: rgba(0, 0, 0, 0);
+    border: solid #FF9900;
+    font-size: 16px;
+    color: white;
+}
+
+.benefits-wrapper-options {
+    width: 870px;
+    height: 622px;
+}
